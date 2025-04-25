@@ -15,6 +15,7 @@ A simple and minimalistic Todo List web application built with Django (backend) 
 - **Optimistic Updates**: Updates to tasks (add/edit) are displayed immediately without waiting for a backend response. TODO: (use rtk query or similar)
 - **Client-Side Rendering (CSR)**: The app mostly relies on client-side rendering.
 - **No Sign Up**: Users can create tasks after logging in, but the sign-up functionality is not implemented. Users can be created through Django.
+- **User-Based Todos**: Fetches tasks based on logged in user.
 
 ## Setup
 
@@ -69,3 +70,8 @@ Your backend API will be available at http://127.0.0.1:8000/.
    npm run dev
 
 Your frontend will be available at http://localhost:3000/.
+
+
+NOTE: if using the sample db.sqlite3 here are credentials for an existing user:
+email/username: test@gmail.com
+password: 123
