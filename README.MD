@@ -13,7 +13,7 @@ A simple and minimalistic Todo List web application built with Django (backend) 
 ### Frontend (Next.js)
 - **Infinite Scrolling**: Fetch more tasks as the user scrolls down the task list.
 - **Optimistic Updates**: Updates to tasks (add/edit) are displayed immediately without waiting for a backend response. TODO: (use rtk query or similar)
-- **Client-Side Rendering (CSR)**: The app mostly relies on client-side rendering due to time constraints.
+- **Client-Side Rendering (CSR)**: The app mostly relies on client-side rendering.
 - **No Sign Up**: Users can create tasks after logging in, but the sign-up functionality is not implemented. Users can be created through Django.
 
 ## Setup
