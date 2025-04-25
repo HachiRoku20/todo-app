@@ -36,6 +36,8 @@ A simple and minimalistic Todo List web application built with Django (backend) 
    ALLOWED_HOSTS=127.0.0.1,localhost
    DATABASE_NAME=db.sqlite3
 
+   # Delete db.sqlite3 when using own DB
+
 4. **Run the Django migrations to set up the database:**
    ```bash
    python manage.py migrate
